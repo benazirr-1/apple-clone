@@ -108,7 +108,7 @@ label {
 
 .main {
   display: grid;
-  grid-template-rows: 40rem 18rem;
+  grid-template-rows: 40rem 1fr;
   grid-template-columns: repeat(4, 1fr);
 }
 
