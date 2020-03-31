@@ -1,4 +1,4 @@
-# Mint signup-page clone
+# Apple Landing page clone
 
 > this is a clone of the Apple 2014 landing page. The goal was to make it look as similar as possible.
 
