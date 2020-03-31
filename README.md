@@ -2,7 +2,7 @@
 
 > this is a clone of the Apple 2014 landing page. The goal was to make it look as similar as possible.
 
-![screenshot](img/screenshot.png)
+![screenshot](img/screenshot2.png)
 
 ## Built With
 
