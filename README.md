@@ -13,8 +13,8 @@
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/thedekerone)
-- Twitter: [@twitterhandle](https://twitter.com/mauricio_fow)
+- Github: [thedekerone](https://github.com/thedekerone)
+- Twitter: [@mauriciofow](https://twitter.com/mauricio_fow)
 - Linkedin: [linkedin](https://www.linkedin.com/in/mauricio-fow-aranibar-b2173514b/)
 
 ## Getting started
