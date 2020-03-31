@@ -40,7 +40,7 @@ Give a ⭐️ if you like this project!
 
 ## Live preview
 
-You can check how the website looks in: [Live preview](https://rawcdn.githack.com/thedekerone/apple-clone/66637af3bce8ad1b89bca6727ade4d680b5a4a4a/index.html)
+You can check how the website looks in: [Live preview](https://rawcdn.githack.com/thedekerone/apple-clone/1009d97457c034ba4b025f0f0947a94984d19554/index.html)
 
 ## 📝 License
 
