@@ -4,6 +4,15 @@
 
 ![screenshot](img/screenshot2.png)
 
+This website contains:
+
+- A Navbar made with grid.
+- A search input inside the Navbar.
+- A hero section and products made with grid and flexbox.
+- A footer made with float.
+
+It also have some media queries to handle responsiveness.
+
 ## Built With
 
 - HTML5
