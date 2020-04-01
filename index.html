@@ -12,42 +12,84 @@
   </head>
   <body>
     <header>
-      <ul>
-        <li class="header__item">
-          <a href="#"><i class="fab fa-apple"></i></a>
-        </li>
-        <li class="header__item"><a href="#">Store</a></li>
-        <li class="header__item"><a href="#">Mac</a></li>
-        <li class="header__item"><a href="#">iPod</a></li>
-        <li class="header__item"><a href="#">iPhone</a></li>
-        <li class="header__item"><a href="#">iPad</a></li>
-        <li class="header__item"><a href="#">iTunes</a></li>
-        <li class="header__item"><a href="#">SUpport</a></li>
-        <li class="header__item">
-          <form>icon <input type="text" name="search" /></form>
-        </li>
-      </ul>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a class="flex-center" href="#"><i class="fab fa-apple"></i></a>
+          </li>
+          <li class="nav-list__item ">
+            <a class="flex-center" href="#">Store</a>
+          </li>
+          <li class="nav-list__item ">
+            <a class="flex-center" href="#">Mac</a>
+          </li>
+          <li class="nav-list__item ">
+            <a class="flex-center" href="#">iPod</a>
+          </li>
+          <li class="nav-list__item ">
+            <a class="flex-center" href="#">iPhone</a>
+          </li>
+          <li class="nav-list__item ">
+            <a class="flex-center" href="#">iPad</a>
+          </li>
+          <li class="nav-list__item ">
+            <a class="flex-center" href="#">iTunes</a>
+          </li>
+          <li class="nav-list__item ">
+            <a class="flex-center" href="#">Support</a>
+          </li>
+          <li class="nav-list__item flex-center">
+            <label for="search"></label>
+            <input id="search" type="text" name="search" />
+            <i class="fas fa-search"></i>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main>
-      <div class="hero">
-        <h1>What will your verse be</h1>
-        <span
+    <main class="main">
+      <section class="hero flex-center">
+        <h1 class="hero__title">What will your verse be?</h1>
+        <span class="hero__desc"
           >Everyone has something to share. See how people are using iPad in
           their unique ways to add to the world's story</span
         >
-        <a href='Watch "Your Verse" film and explore the stories '></a>
-      </div>
-      <div class="product"><img src="" alt="apple product" /></div>
-      <div class="product"><img src="" alt="apple product" /></div>
-      <div class="product"><img src="" alt="apple product" /></div>
-      <div class="product"><img src="" alt="apple product" /></div>
+        <a class="hero__link flex-center" href="#"
+          >Watch "Your Verse" film and explore the stories
+          <i class="far fa-play-circle"></i>
+        </a>
+      </section>
+      <a href="#" class="product">
+        <img
+          src="https://archive.fo/UW4oR/4199f096e33e638ba9aeb6c6dec3a3e64794d02c.jpg"
+          alt="apple product"
+        />
+      </a>
+      <a href="#" class="product">
+        <img
+          src="https://archive.fo/UW4oR/6032fe46fd16493ddda4e90ae45725962fc826b9.jpg"
+          alt="apple product"
+        />
+      </a>
+      <a href="#" class="product">
+        <img
+          src="https://archive.fo/UW4oR/307a4ef1971d63d523c362cc3e49f923549fcefc.jpg"
+          alt="apple product"
+        />
+      </a>
+      <a href="#" class="product">
+        <img
+          src="https://archive.fo/UW4oR/ec67ffeb084d1b9c83687205641697baa4122bee.jpg"
+          alt="apple product"
+        />
+      </a>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="footer__description">
         <p>
           Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an
           Apple Retail Store, or find a <a href="#">reseller</a> .
         </p>
+        <br />
         <p>
           Copyright © 2014 Apple Inc. All rights reserved.
           <a href="#">Terms of Use</a> | <a href="#">Privacy</a>
@@ -55,15 +97,22 @@
         </p>
       </div>
       <div class="footer__links">
-        <ul>
-          <li><a href="#">Site Map</a></li>
-          <li><a href="#">Hot News</a></li>
-          <li><a href="#">RSS Feeds</a></li>
-          <li><a href="#">Media Info</a></li>
-          <li><a href="#">Environment</a></li>
-          <li><a href="#">Job opportunities</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">america</a></li>
+        <ul class="flex-center">
+          <li class="footer-link__item"><a href="#">Site Map</a></li>
+          <li class="footer-link__item"><a href="#">Hot News</a></li>
+          <li class="footer-link__item"><a href="#">RSS Feeds</a></li>
+          <li class="footer-link__item"><a href="#">Media Info</a></li>
+          <li class="footer-link__item"><a href="#">Environment</a></li>
+          <li class="footer-link__item"><a href="#">Job opportunities</a></li>
+          <li class="footer-link__item"><a href="#">Contact Us</a></li>
+          <li class="footer-link__item">
+            <a href="#"
+              ><img
+                class="america-flag"
+                src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/us-01.png"
+                alt="america flag"
+            /></a>
+          </li>
         </ul>
       </div>
     </footer>
