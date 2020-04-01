@@ -37,17 +37,13 @@ a {
   margin: 0 auto;
   top: 5rem;
 }
+
 .nav-list {
   border-radius: 4px;
   overflow: hidden;
   width: 100%;
   background: rgb(124, 124, 124);
-  background: linear-gradient(
-    0deg,
-    rgba(124, 124, 124, 1) 0%,
-    rgba(106, 106, 106, 1) 44%,
-    rgba(158, 158, 158, 1) 100%
-  );
+  background: linear-gradient(0deg,rgba(124, 124, 124, 1) 0%,rgba(106, 106, 106, 1) 44%,rgba(158, 158, 158, 1) 100%);
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   position: relative;
@@ -68,11 +64,14 @@ a {
   height: 2.4rem;
   border-left: 1px solid rgb(78, 78, 78);
 }
+
 .nav-list__item a {
   width: 100%;
   height: 100%;
   z-index: 4;
   position: relative;
+  color: white;
+
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -84,6 +83,7 @@ a {
 .nav-list__item:first-child {
   border: 0;
 }
+
 label {
   position: absolute;
   z-index: 4;
@@ -91,6 +91,7 @@ label {
   cursor: text;
   height: 100%;
 }
+
 .nav-list__item input {
   width: 100%;
   border: 0;
@@ -102,10 +103,6 @@ label {
   color: white;
   padding-left: 1.4rem;
   border-bottom: 1px solid grey;
-}
-
-.nav-list__item a {
-  color: white;
 }
 
 /* Main */
@@ -173,6 +170,7 @@ label {
 .footer__description {
   float: left;
 }
+
 .footer__links {
   float: right;
 }
@@ -190,6 +188,7 @@ label {
 }
 
 /* OTHERS */
+
 .fa-search {
   color: white;
   position: absolute;
