@@ -43,7 +43,7 @@ a {
   overflow: hidden;
   width: 100%;
   background: rgb(124, 124, 124);
-  background: linear-gradient(0deg,rgba(124, 124, 124, 1) 0%,rgba(106, 106, 106, 1) 44%,rgba(158, 158, 158, 1) 100%);
+  background: linear-gradient(0deg, rgba(124, 124, 124, 1) 0%, rgba(106, 106, 106, 1) 44%, rgba(158, 158, 158, 1) 100%);
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   position: relative;
@@ -71,7 +71,6 @@ a {
   z-index: 4;
   position: relative;
   color: white;
-
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -210,6 +209,7 @@ label {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media screen and (max-width: 700px) {
   html {
     font-size: 10px;
