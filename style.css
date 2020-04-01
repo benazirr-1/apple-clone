@@ -77,6 +77,10 @@ a {
   font-weight: 500;
 }
 
+.nav-list__item:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
 .nav-list__item:first-child {
   border: 0;
 }
@@ -175,6 +179,10 @@ label {
 
 .footer a {
   color: rgb(33, 149, 184);
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 .footer-link__item {
